@@ -1,0 +1,29 @@
+body{
+	width: 960px;
+	background-image: 
+}
+header{
+	float: left;
+	height:83px;
+	width:960px;
+	border-bottom: solid grey;
+	position:relative;
+	margin:0 auto;
+}
+.yourName{
+	background: #4aaaa5;
+	width: 197px;
+	height: 83px;
+	margin-left: 156px;
+	margin-right: 353px;
+	font-family: Georgia, Times, Times New Roman, serif;
+	position: absolute;
+}
+.headerLink{
+	width: 221px;
+	height:83px;
+	margin-left: 704px;
+	margin-right: 925px;
+	font-family: Georgia, Times, Times New Roman, serif;
+	position:absolute;
+}
