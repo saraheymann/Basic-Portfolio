@@ -2,44 +2,46 @@
 <html>
 <head>
 	<title>Sara Heymann's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body background="assets/images/topography/topography.png">
 	<header>
 		<section class="yourName">Sara Heymann</section>
-
-		<a class="headerLink", href="">About|</a>
-		<a class="headerLink" href=""> Portfolio |</a>
-		<a class="headerLink" href=""> Contact</a>
+		<table>
+			<tr>
+			<th href="">About  |</th>
+			<th href="">Portfolio  |</th>
+			<th href="">Contact</th>
+			</tr>
+		</table>
 	</header>
 
-	<section>
-		<h1>Contact</h1>
+	<section class="contactBox">
+		<h1 class="contentHeader">Contact</h1>
 		<form>
 
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name" placeholder="Jane Smith">
+			<label class= "nameFormHeader", for="name">Name</label>
+			<input class="nameForm" type="text" id="name" name="name" placeholder="Jane Smith">
 
-			<label for="email">Email</label>
-			<input type="text" id="email" name="email" placeholder="example@gmail.com">
+			<label class= "nameFormHeader", for="email">Email</label>
+			<input class="nameForm", type="text" id="email" name="email" placeholder="example@gmail.com">
 
-			<label for="Message">Message</label>
-			<textarea id="message" name="message"> </textarea>
+			<label class= "nameFormHeader", for="Message">Message</label>
+			<textarea class="nameForm", id="message" name="message"> </textarea>
 
-			<input type="submit" name="submit">
+			<input class="submitButton", type="submit" name="submit">
 
 		</form>
 	</section>
 
-	<section>
-		<h2>Connect with Me</h2>
-		<img src="">
-		<img src="">
-		<img src="">
+	<section class="sideBar">
+		<h2 class="connectHeader">Connect With Me</h2>
+		<img class="icon", src="assets/images/githubicon.png">
+		<img class="icon", src="assets/images/tumblricon.png">
+		<img class="icon", src="assets/images/stackoverflowicon.png">
 	</section>
-
-	<footer>©Copyright 2017 Sara Heymann</footer>
+	<footer class="copyrightText", id="footerContact">Copyright 2017 Sara Heymann</footer>
 
 </body>
 </html>
